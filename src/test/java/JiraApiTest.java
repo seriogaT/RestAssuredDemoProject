@@ -1,5 +1,3 @@
-package JiraApiTest;
-
 import io.restassured.RestAssured;
 import io.restassured.filter.session.SessionFilter;
 import io.restassured.path.json.JsonPath;

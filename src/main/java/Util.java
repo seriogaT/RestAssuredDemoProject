@@ -1,3 +1,4 @@
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.path.json.JsonPath;
 
 import java.io.IOException;
@@ -13,4 +14,5 @@ public class Util {
     public static String generateStringFromResource(String path) throws IOException {
         return new String(Files.readAllBytes(Paths.get(path)));
     }
+
 }
